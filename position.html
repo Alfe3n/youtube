@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        body{
+            padding-top: 60px;
+            padding-left: 30px;
+
+        }
+        .div1{
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+        }
+        .div2{
+            width: 200px;
+            height: 200px;
+            background-color:pink ;
+        }
+        .header{
+            background-color: blueviolet;
+            position: fixed;
+            left:0px;
+            right: 0px;
+            top: 0px;
+        
+            height: 50px;
+        }
+        body{
+            height: 3000px;
+        }
+        .side{
+            background-color: aquamarine;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            top: 50px;
+
+
+        }
+        .absolute{
+            color: white;
+            position: absolute;
+            background-color: red;
+            left: 100px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">header</div>
+    <div class="absolute">absolute</div>
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+    <div class="side">
+        side
+    </div>
+    
+</body>
+</html>
