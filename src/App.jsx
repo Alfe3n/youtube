@@ -103,7 +103,7 @@ function App() {
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/markiplier">
-                    <img src="\channel\channel-2.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-2.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -121,14 +121,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-3.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-3.webp" />
                 </a>
                 <div class="video-time">9:13</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/user/SSSniperWolf">
-                    <img src="\channel\channel-3.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-3.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -149,14 +149,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-4.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-4.webp" />
                 </a>
                 <div class="video-time">22:09</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/veritasium">
-                    <img src="\channel\channel-4.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-4.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -178,14 +178,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-5.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-5.webp" />
                 </a>
                 <div class="video-time">11:17</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img src="\channel\channel-5.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-5.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -205,14 +205,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-6.webp" />
+                  <img class="thumpnail" src=".../thumbnail/thumbnail-6.webp" />
                 </a>
                 <div class="video-time">19:59</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
-                    <img src="\channel\channel-6.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-6.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -232,14 +232,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-7.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-7.webp" />
                 </a>
                 <div class="video-time">10:13</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img src="\channel\channel-7.jpeg" class="profile-pic" />
+                    <img src="/channel/channel-7.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -257,14 +257,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-8.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-8.webp" />
                 </a>
                 <div class="video-time">7:12</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img src="\channel\channel-8.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-8.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -284,14 +284,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-9.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-9.webp" />
                 </a>
                 <div class="video-time">13:17</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img src="\channel\channel-9.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-9.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -311,14 +311,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-10.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-10.webp" />
                 </a>
                 <div class="video-time">7:53</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img src="\channel\channel-10.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-10.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -339,14 +339,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-11.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-11.webp" />
                 </a>
                 <div class="video-time">4:10</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img src="\channel\channel-11.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-11.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -367,14 +367,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-12.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-12.webp" />
                 </a>
                 <div class="video-time">4:51</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img src="\channel\channel-12.jpeg" class="profile-pic" />
+                    <img src="../channel/channel-12.jpeg" class="profile-pic" />
                   </a>
                 </div>
                 <div class="video-info">
