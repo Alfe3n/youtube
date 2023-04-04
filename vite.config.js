@@ -5,3 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 })
+images: {
+    domains: [
+      'https://youtube-smoky-tau.vercel.app/',
+    ]
+  },
