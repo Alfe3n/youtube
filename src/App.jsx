@@ -205,7 +205,7 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
-                  <img class="thumpnail" src=".../thumbnail/thumbnail-6.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-6.webp" />
                 </a>
                 <div class="video-time">19:59</div>
               </div>
@@ -218,7 +218,7 @@ function App() {
                 <div class="video-info">
                   <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
                     <p class="video-title">
-                      Anything You Can Fit In The Circle I’ll Pay For
+                      Anything You Can Fit In The Circle I'll Pay For
                     </p>
                   </a>
                   <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
