@@ -26,39 +26,39 @@ function App() {
               <div class="tooltip">Create</div>
             </div>
             <div class="apps-icon-container">
-              <img class="apps-icon" src="\svg\youtube-apps.svg" />
+              <img class="apps-icon" src="../svg/youtube-apps.svg" />
               <div class="tooltip">Youtube-Apps</div>
             </div>
             <div class="notification-icon-container">
               <div class="notification-count">3</div>
-              <img class="notification-icon" src="\svg\notifications.svg" />
+              <img class="notification-icon" src="../svg/notifications.svg" />
               <div class="tooltip">Notifications</div>
             </div>
-            <img class="user-pic" src="\svg\index.jpg" />
+            <img class="user-pic" src="../svg/index.jpg" />
           </div>
           <nav class="sidebar">
             <div class="sidebar-link">
-              <img src="\svg\home.svg" />
+              <img src="../svg/home.svg" />
               <div>Home</div>
             </div>
             <div class="sidebar-link">
-              <img src="\svg\explore.svg" />
+              <img src="../svg/explore.svg" />
               <div>Explore</div>
             </div>
             <div class="sidebar-link">
-              <img src="\svg\subscriptions.svg" />
+              <img src="../svg/subscriptions.svg" />
               <div>Subscriptions</div>
             </div>
             <div class="sidebar-link">
-              <img src="\svg\originals.svg" />
+              <img src="../svg/originals.svg" />
               <div>originals</div>
             </div>
             <div class="sidebar-link">
-              <img src="\svg\youtube-music.svg" />
+              <img src="../svg/youtube-music.svg" />
               <div>Youtube Music</div>
             </div>
             <div class="sidebar-link">
-              <img src="\svg\library.svg" />
+              <img src="../svg/library.svg" />
               <div>Library</div>
             </div>
           </nav>
@@ -69,14 +69,14 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-1.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-1.webp" />
                 </a>
                 <div class="video-time">14:20</div>
               </div>
               <div class="video-info-grid">
                 <div class="channel-pic">
                   <a href="https://www.youtube.com/c/mkbhd">
-                    <img class="profile-pic" src="\channel\channel-1.jpeg" />
+                    <img class="profile-pic" src="../channel/channel-1.jpeg" />
                   </a>
                 </div>
                 <div class="video-info">
@@ -96,7 +96,7 @@ function App() {
             <div class="video-preview">
               <div class="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
-                  <img class="thumpnail" src="\thumbnail\thumbnail-2.webp" />
+                  <img class="thumpnail" src="../thumbnail/thumbnail-2.webp" />
                 </a>
                 <div class="video-time">8:22</div>
               </div>
