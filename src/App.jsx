@@ -6,20 +6,17 @@ function App() {
       <>
         <header class="header">
           <div class="left-section">
-            <img
-              class="hamburger-menu"
-              src="../public/svg/hamburger-menu.svg"
-            />
-            <img class="youtube-logo" src="./svg/youtube-logo.svg" />
+            <img class="hamburger-menu" src="../svg/hamburger-menu.svg" />
+            <img class="youtube-logo" src="../svg/youtube-logo.svg" />
           </div>
           <div class="middle-section">
             <input type="text" placeholder="Search" class="searchbar" />
             <button class="search-button">
-              <img class="search-icon" src="./svg/search.svg" />
+              <img class="search-icon" src="../svg/search.svg" />
               <div class="tooltip">Search</div>
             </button>
             <button class="voice-search-button">
-              <img class="voice-icon" src="./svg/voice-search-icon.svg" />
+              <img class="voice-icon" src="../svg/voice-search-icon.svg" />
               <div class="tooltip">Search with your voice</div>
             </button>
           </div>
@@ -34,10 +31,7 @@ function App() {
             </div>
             <div class="notification-icon-container">
               <div class="notification-count">3</div>
-              <img
-                class="notification-icon"
-                src="../public/svg/notifications.svg"
-              />
+              <img class="notification-icon" src="../svg/notifications.svg" />
               <div class="tooltip">Notifications</div>
             </div>
             <img class="user-pic" src="../svg/index.jpg" />
