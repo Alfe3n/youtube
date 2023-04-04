@@ -10,29 +10,26 @@ function App() {
               class="hamburger-menu"
               src="../public/svg/hamburger-menu.svg"
             />
-            <img class="youtube-logo" src="../public/svg/youtube-logo.svg" />
+            <img class="youtube-logo" src="./svg/youtube-logo.svg" />
           </div>
           <div class="middle-section">
             <input type="text" placeholder="Search" class="searchbar" />
             <button class="search-button">
-              <img class="search-icon" src="../public/svg/search.svg" />
+              <img class="search-icon" src="./svg/search.svg" />
               <div class="tooltip">Search</div>
             </button>
             <button class="voice-search-button">
-              <img
-                class="voice-icon"
-                src="../public/svg/voice-search-icon.svg"
-              />
+              <img class="voice-icon" src="./svg/voice-search-icon.svg" />
               <div class="tooltip">Search with your voice</div>
             </button>
           </div>
           <div class="right-section">
             <div class="upload-icon-container">
-              <img class="upload-icon" src="../public/svg/upload.svg" />
+              <img class="upload-icon" src="../svg/upload.svg" />
               <div class="tooltip">Create</div>
             </div>
             <div class="apps-icon-container">
-              <img class="apps-icon" src="../public/svg/youtube-apps.svg" />
+              <img class="apps-icon" src="../svg/youtube-apps.svg" />
               <div class="tooltip">Youtube-Apps</div>
             </div>
             <div class="notification-icon-container">
@@ -43,7 +40,7 @@ function App() {
               />
               <div class="tooltip">Notifications</div>
             </div>
-            <img class="user-pic" src="../public/svg/index.jpg" />
+            <img class="user-pic" src="../svg/index.jpg" />
           </div>
           <nav class="sidebar">
             <div class="sidebar-link">
