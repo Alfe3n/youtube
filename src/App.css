@@ -180,7 +180,7 @@ a {
 }
 .sidebar-link img {
   height: 24px;
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
 }
 .sidebar-link div {
   font-size: 10px;
@@ -264,5 +264,40 @@ a {
 @media (min-width: 1000px) {
   .maingrid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 992px) {
+  .maingrid {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: white;
+  }
+  .sidebar-link {
+    height: 4rem;
+  }
+  .sidebar-link div {
+    display: none;
+  }
+  .hamburger-menu,
+  .middle-section input,
+  .voice-search-button,
+  .upload-icon,
+  .apps-icon-container {
+    display: none;
+  }
+  .search-button {
+    background-color: white;
+    border-style: none;
   }
 }
