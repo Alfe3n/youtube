@@ -1,4 +1,4 @@
-import "./App.css";
+import './App.css'
 
 function App() {
   return (
@@ -6,62 +6,59 @@ function App() {
       <>
         <header className="header">
           <div className="left-section">
-            <img className="hamburger-menu" src="../svg/hamburger-menu.svg" />
-            <img className="youtube-logo" src="../svg/youtube-logo.svg" />
+            <img alt="menu" className="hamburger-menu" src="../svg/hamburger-menu.svg" />
+            <img alt="logo" className="youtube-logo" src="../svg/youtube-logo.svg" />
           </div>
           <div className="middle-section">
             <input type="text" placeholder="Search" className="searchbar" />
             <button className="search-button">
-              <img className="search-icon" src="../svg/search.svg" />
+              <img alt="pic" className="search-icon" src="../svg/search.svg" />
               <div className="tooltip">Search</div>
             </button>
             <button className="voice-search-button">
-              <img className="voice-icon" src="../svg/voice-search-icon.svg" />
+              <img alt="pic" className="voice-icon" src="../svg/voice-search-icon.svg" />
               <div className="tooltip">Search with your voice</div>
             </button>
           </div>
           <div className="right-section">
             <div className="upload-icon-container">
-              <img className="upload-icon" src="../svg/upload.svg" />
+              <img alt="pic" className="upload-icon" src="../svg/upload.svg" />
               <div className="tooltip">Create</div>
             </div>
             <div className="apps-icon-container">
-              <img className="apps-icon" src="../svg/youtube-apps.svg" />
+              <img alt="pic" className="apps-icon" src="../svg/youtube-apps.svg" />
               <div className="tooltip">Youtube-Apps</div>
             </div>
             <div className="notification-icon-container">
               <div className="notification-count">3</div>
-              <img
-                className="notification-icon"
-                src="../svg/notifications.svg"
-              />
+              <img alt="pic" className="notification-icon" src="../svg/notifications.svg" />
               <div className="tooltip">Notifications</div>
             </div>
-            <img className="user-pic" src="../svg/index.jpg" />
+            <img alt="pic" className="user-pic" src="../svg/index.jpg" />
           </div>
           <nav className="sidebar">
             <div className="sidebar-link">
-              <img src="../svg/home.svg" />
+              <img alt="pic" src="../svg/home.svg" />
               <div className="name">Home</div>
             </div>
             <div className="sidebar-link">
-              <img src="../svg/explore.svg" />
+              <img alt="pic" src="../svg/explore.svg" />
               <div>Explore</div>
             </div>
             <div className="sidebar-link">
-              <img src="../svg/subscriptions.svg" />
+              <img alt="pic" src="../svg/subscriptions.svg" />
               <div>Subscriptions</div>
             </div>
             <div className="sidebar-link">
-              <img src="../svg/originals.svg" />
+              <img alt="pic" src="../svg/originals.svg" />
               <div>originals</div>
             </div>
             <div className="sidebar-link">
-              <img src="../svg/youtube-music.svg" />
+              <img alt="pic" src="../svg/youtube-music.svg" />
               <div>Youtube Music</div>
             </div>
             <div className="sidebar-link">
-              <img src="../svg/library.svg" />
+              <img alt="pic" src="../svg/library.svg" />
               <div>Library</div>
             </div>
           </nav>
@@ -71,29 +68,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
-                  <img
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-1.webp"
-                    alt="pic"
-                  />
+                  <img className="thumpnail" src="../thumbnail/thumbnail-1.webp" alt="pic" />
                 </a>
                 <div className="video-time">14:20</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/mkbhd">
-                    <img
-                      className="profile-pic"
-                      src="../channel/channel-1.jpeg"
-                      alt="pic"
-                    />
+                    <img className="profile-pic" src="../channel/channel-1.jpeg" alt="pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
-                    <p className="video-title">
-                      Talking Tech and AI with Google CEO Sundar Pichai!
-                    </p>
+                    <p className="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
                   </a>
                   <a href="https://www.youtube.com/c/mkbhd">
                     <p className="video-author">Marques Brownlee</p>
@@ -106,22 +93,14 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-2.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-2.webp" />
                 </a>
                 <div className="video-time">8:22</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/markiplier">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-2.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-2.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
@@ -139,29 +118,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-3.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-3.webp" />
                 </a>
                 <div className="video-time">9:13</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/user/SSSniperWolf">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-3.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-3.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
-                    <p className="video-title">
-                      Crazy Tik Toks Taken Moments Before DISASTER
-                    </p>
+                    <p className="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
                   </a>
                   <a href="https://www.youtube.com/user/SSSniperWolf">
                     <p className="video-author">SSSniperWolf</p>
@@ -175,30 +144,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-4.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-4.webp" />
                 </a>
                 <div className="video-time">22:09</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/veritasium">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-4.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-4.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
-                    <p className="video-title">
-                      The Simplest Math Problem No One Can Solve - Collatz
-                      Conjecture
-                    </p>
+                    <p className="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
                   </a>
                   <a href="https://www.youtube.com/c/veritasium">
                     <p className="video-author">Veritasium</p>
@@ -212,29 +170,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-5.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-5.webp" />
                 </a>
                 <div className="video-time">11:17</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-5.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-5.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                    <p className="video-title">
-                      Kadane's Algorithm to Maximum Sum Subarray Problem
-                    </p>
+                    <p className="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
                   </a>
                   <a href="https://www.youtube.com/c/CSDojo">
                     <p className="video-author">CS Dojo</p>
@@ -247,29 +195,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-6.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-6.webp" />
                 </a>
                 <div className="video-time">19:59</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-6.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-6.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
-                    <p className="video-title">
-                      Anything You Can Fit In The Circle I'll Pay For
-                    </p>
+                    <p className="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
                   </a>
                   <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
                     <p className="video-author">MrBeast</p>
@@ -282,29 +220,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-7.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-7.webp" />
                 </a>
                 <div className="video-time">10:13</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img
-                      alt="pic"
-                      src="/channel/channel-7.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="/channel/channel-7.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                    <p className="video-title">
-                      Why Planes Don't Fly Over Tibet
-                    </p>
+                    <p className="video-title">Why Planes Don't Fly Over Tibet</p>
                   </a>
                   <a href="https://www.youtube.com/c/CSDojo">
                     <p className="video-author">RealLifeLoreo</p>
@@ -317,29 +245,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-8.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-8.webp" />
                 </a>
                 <div className="video-time">7:12</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-8.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-8.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                    <p className="video-title">
-                      Inside The World's Biggest Passenger Plane
-                    </p>
+                    <p className="video-title">Inside The World's Biggest Passenger Plane</p>
                   </a>
                   <a href="https://www.youtube.com/c/CSDojo">
                     <p className="video-author">Tech Vision</p>
@@ -352,29 +270,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-9.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-9.webp" />
                 </a>
                 <div className="video-time">13:17</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-9.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-9.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                    <p className="video-title">
-                      The SECRET to Super Human STRENGTH
-                    </p>
+                    <p className="video-title">The SECRET to Super Human STRENGTH</p>
                   </a>
                   <a href="https://www.youtube.com/c/CSDojo">
                     <p className="video-author">ThenX</p>
@@ -387,30 +295,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-10.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-10.webp" />
                 </a>
                 <div className="video-time">7:53</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-10.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-10.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                    <p className="video-title">
-                      How The World's Largest Cruise Ship Makes 30,000 Meals
-                      Every Day
-                    </p>
+                    <p className="video-title">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
                   </a>
                   <a href="https://www.youtube.com/c/CSDojo">
                     <p className="video-author">Business Insider</p>
@@ -423,30 +320,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-11.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-11.webp" />
                 </a>
                 <div className="video-time">4:10</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-11.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-11.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                    <p className="video-title">
-                      Dubai's Crazy Underwater Train and Other Things #Only in
-                      Dubai
-                    </p>
+                    <p className="video-title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
                   </a>
                   <a href="https://www.youtube.com/c/CSDojo">
                     <p className="video-author">Destination Tips</p>
@@ -459,30 +345,19 @@ function App() {
             <div className="video-preview">
               <div className="thumpnail-row">
                 <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                  <img
-                    alt="pic"
-                    className="thumpnail"
-                    src="../thumbnail/thumbnail-12.webp"
-                  />
+                  <img alt="pic" className="thumpnail" src="../thumbnail/thumbnail-12.webp" />
                 </a>
                 <div className="video-time">4:51</div>
               </div>
               <div className="video-info-grid">
                 <div className="channel-pic">
                   <a href="https://www.youtube.com/c/CSDojo">
-                    <img
-                      alt="pic"
-                      src="../channel/channel-12.jpeg"
-                      className="profile-pic"
-                    />
+                    <img alt="pic" src="../channel/channel-12.jpeg" className="profile-pic" />
                   </a>
                 </div>
                 <div className="video-info">
                   <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-                    <p className="video-title">
-                      What would happen if you didn’t drink water? - Mia
-                      Nacamulli
-                    </p>
+                    <p className="video-title">What would happen if you didn’t drink water? - Mia Nacamulli</p>
                   </a>
                   <a href="https://www.youtube.com/c/CSDojo">
                     <p className="video-author">TED-Ed</p>
@@ -493,7 +368,7 @@ function App() {
             </div>
           </div>
 
-          <nav className="footer">
+          {/* <nav className="footer">
             <div className="sidebar-link">
               <img src="../svg/home.svg" />
               <div className="name">Home</div>
@@ -518,11 +393,12 @@ function App() {
               <img src="../svg/library.svg" />
               <div>Library</div>
             </div>
-          </nav>
+          </nav> */}
         </main>
       </>
+      <div className="footer"></div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
